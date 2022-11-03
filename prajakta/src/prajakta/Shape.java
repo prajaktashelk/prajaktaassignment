@@ -1,12 +1,12 @@
 package prajakta;
 
-public class shape {
+public class Shape {
 	void display()
 	{
 		System.out.println("Shape");
 	}
 		}
-	class circle extends shape{
+	class circle extends Shape{
 		void area()
 		{
 	    double pie=3.14;
@@ -15,7 +15,7 @@ public class shape {
 		System.out.println("area of circle is =" +a);
 	}
 	}
-	class Square extends shape{
+	class Square extends Shape{
 		void Area()
 		{
 			int a=4;
@@ -28,7 +28,7 @@ public class shape {
 		S.display();
 		S.Area();
 	}
-	}
+}
 
 
 
